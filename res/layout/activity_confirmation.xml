@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent" 
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:background="@drawable/alert_background">
+  
+    <TextView 
+        android:text="@string/alert_message"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal"
+    	android:gravity="center_horizontal"
+    	android:textStyle="normal" 
+    	android:textSize="25sp"
+    	android:textColor="@android:color/holo_red_dark"
+    	android:layout_marginLeft="2dip"
+    	android:layout_marginRight="2dip" 
+    	android:layout_marginTop="25dip"
+    	android:layout_marginBottom="10dip"/>
+    
+    <TextView 
+    	    android:id="@+id/remainingTime"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"  
+        	android:textSize="65sp"
+        	android:textStyle="bold"
+        	android:layout_margin="10dip"
+        	android:textIsSelectable="false"
+        	android:layout_gravity="center_horizontal"
+        	android:gravity="center"
+        	android:textColor="@android:color/black"
+    	/>
+    
+    <Button
+        android:id="@+id/cancelAlert"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/button_background"
+    	android:layout_gravity="center_horizontal"
+    	android:text="@string/cancel"
+    	android:textSize="20sp"
+    	android:padding="8dip" 
+    	android:layout_marginTop="10dip"
+    	android:layout_marginBottom="10dip"/>
+  
+</LinearLayout>

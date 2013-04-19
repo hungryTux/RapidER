@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference
+		android:key="PREF_FALL_TIMEOUT"
+		android:title="@string/fall_detection_timeout"
+		android:summary="Amount of time device is stationary after fall"
+		android:entries="@array/timeout_options"
+		android:entryValues="@array/timeout_options_values"
+		android:defaultValue="5"    
+	/>
+	<ListPreference
+		android:key="PREF_SOS_TIMEOUT"
+		android:title="@string/sos_confirmation_timeout"
+		android:summary="Amount of time to wait before sending SOS"
+		android:entries="@array/timeout_options"
+		android:entryValues="@array/timeout_options_values"
+		android:defaultValue="10"    
+	/>
+	<ListPreference
+		android:key="PREF_SENSITIVITY"
+		android:title="@string/sensitivity"
+		android:summary="Sensitivity of motion sensors while detecting fall"
+		android:entries="@array/sensitivity_options"
+		android:entryValues="@array/sensitivity_options_values"
+		android:defaultValue="0"    
+	/>
+	<CheckBoxPreference
+	    android:key="PREF_LOCATION_TRACKING"
+	    android:title="@string/location_tracking"
+	    android:summary="Enable/Disable Location Tracking"
+	    android:defaultValue="true" 
+	/>
+</PreferenceScreen>

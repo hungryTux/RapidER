@@ -1,0 +1,37 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">RapidER</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="statusBarIcon">Status Bar Icon</string>
+    
+    <string name="start_service">Start Monitoring</string>
+    <string name="stop_service">Stop Monitoring</string>
+    
+    <string name="alert_message">A Fall has been detected!! An alert will be sent in</string>
+    
+    <string name="cancel">Cancel</string>
+    
+    <string name="status_service_running">Fall Detection Service is running</string>
+    
+    <string name="fall_detection_timeout">Fall Detection Timeout</string>
+    <string name="sos_confirmation_timeout">SOS Confirmation Timeout</string>
+    <string name="location_tracking">Location Tracking</string>
+    <string name="sensitivity">Sensitivity</string>
+    
+   
+     <!--
+    	This string is used as the format string in a String.format call,
+    	and 5 additional arguments are available for printing:
+    	1 - hours
+    	2 - minutes
+    	3 - minutes%60
+    	4 - seconds
+    	5 - second%60
+    -->
+    <skip/>
+    <!-- Do not translate. Duration format for duration < 1 hour -->
+    <string translatable="false" name="durationformat"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+    
+</resources>

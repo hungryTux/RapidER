@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- use the Android Dialog theme as the base for our own theme -->
+    <style name="NoTitleDialogTheme" parent="@android:style/Theme.Dialog">
+
+        <!-- hide the Window Title -->
+        <item name="android:windowNoTitle">true</item>
+		
+    </style>
+
+</resources>

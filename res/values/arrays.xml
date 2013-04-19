@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timeout_options">
+        <item>5 secs</item>
+        <item>10 secs</item>
+        <item>15 secs</item>
+        <item>30 secs</item>
+    </string-array>
+    
+    <string-array name="timeout_options_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+    </string-array>
+    
+    <string-array name="sensitivity_options">
+        <item>Normal</item>
+        <item>Low</item>
+    </string-array>
+    
+    <string-array name="sensitivity_options_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+</resources>
